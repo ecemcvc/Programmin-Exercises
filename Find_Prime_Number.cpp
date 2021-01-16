@@ -16,7 +16,6 @@ int main()
 	printf("\nBetween %d and %d the number of prime is: \n",low,up);
 	for(i=low;i<=up;i++) if(prime(i)==1)  printf("%4d",i);
 
-
 	return 0;
 	
 }
